@@ -1,0 +1,34 @@
+{
+  "name": "aunty-snowpack-test",
+  "version": "1.0.0-pre",
+  "description": "A project generated from aunty's react project template.",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Joshua Byrd <phocks@gmail.com>"
+  ],
+  "aunty": {
+    "type": "react"
+  },
+  "scripts": {
+    "start": "aunty serve",
+    "test": "aunty test",
+    "build": "snowpack build"
+  },
+  "abc": {
+    "css": {
+      "libraryDir": "./node_modules/@abcaustralia/nucleus/css",
+      "logVariables": "false"
+    }
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.3"
+  },
+  "dependencies": {
+    "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "canvas-confetti": "^1.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
